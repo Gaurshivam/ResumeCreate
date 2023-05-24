@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <script crossorigin  src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script  crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" ></script>
+    <title>Resume</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      let div = React.createElement("div", null, [
+        React.createElement('h1',null,"Shivam Kumar"),
+        React.createElement('p',null,'Software Developer'),
+        React.createElement('a',{href:"https://www.linkedin.com/in/shivam-kumar017/"},' LinkedIn'),
+        React.createElement('a',{href:"https://github.com/Gaurshivam"},' Github'),
+        React.createElement('hr',null,),
+        React.createElement('h2',null,"Experience"),
+        React.createElement('h3',null,'Software Developer at Amazon'),
+        React.createElement('p',null,'I work with amazon in transportation team, some more description Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ullam! Maxime officiis consequuntur libero eaque reprehenderit quisquam nam ab vitae totam id commodi laborum enim, sint ea odit quasi soluta! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident iusto ut praesentium modi. Incidunt atque voluptatem, dignissimos officiis reprehenderit est!'),
+        React.createElement('hr',null,),
+        React.createElement('h3',null,'Intern at Geekster'),
+        React.createElement('p',null,'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora cum inventore aliquam, nulla eos dignissimos ipsum voluptas id, dolores suscipit totam nostrum perferendis alias, expedita quaerat distinctio asperiores! Nobis, aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsa ab qui autem nesciunt vel consequatur non totam, temporibus excepturi voluptatem iure impedit ut repellendus earum necessitatibus nemo eligendi, animi debitis reiciendis suscipit. Unde iure obcaecati dolores, numquam quibusdam rerum facilis a quam quos ad ullam consectetur reiciendis deserunt similique.'),
+        React.createElement('hr',null,),
+        React.createElement('h2',null,'Skills'),
+        React.createElement('ul',null,[
+        React.createElement('li',null,'Java'),
+        React.createElement('li',null,'Javascript'),
+        React.createElement('li',null,'HTML'),
+        React.createElement('li',null,'CSS'),
+        React.createElement('li',null,'React'),
+        ]),
+        React.createElement('hr',null,),
+        React.createElement('h2',null,'Hobbies'),
+        React.createElement('ol',null,[
+        React.createElement('li',null,'Cricket'),
+        React.createElement('li',null,'Programming'),
+        React.createElement('li',null,'Cycling'),
+        React.createElement('li',null,'Watching movie')
+        ]),
+    ])
+      ReactDOM.render(div, document.getElementById("root"));
+    </script>
+  </body>
+</html>
